@@ -7,8 +7,8 @@ The task is to create a set of dimensional tables in a star schema to be stored 
 
 ## Data source
 The datasets reside in AWS S3:
-### This contains the song database:
-### Song data: s3://udacity-dend/song_data
-### This one contains the user log:
-###Log data: s3://udacity-dend/log_data
+This contains the song database:
+Song data: s3://udacity-dend/song_data
+This one contains the user log:
+Log data: s3://udacity-dend/log_data
 

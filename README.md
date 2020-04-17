@@ -14,6 +14,7 @@ Log data: s3://udacity-dend/log_data
 
 The song data files area in JSON format and contain metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset:
 `song_data/A/B/C/TRABCEI128F424C983.json`
+
 `song_data/A/A/B/TRAABJL12903CDCF1A.json`
 
 Below is an example of what a single song file, TRAABJL12903CDCF1A.json, looks like:
@@ -31,7 +32,11 @@ The log files are partitioned by year and month. For example, here are filepaths
 ## Requirements:
 
 AWS credentials with enough credits to run S3
+
 Python 3.8 
+
+
+## Star schema:
 
 
 

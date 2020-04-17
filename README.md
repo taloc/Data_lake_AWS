@@ -37,7 +37,7 @@ Python 3.8
 
 
 ## Star schema:
-
+![](ERD%20for%20Sparkify.pdf)
 
 
 

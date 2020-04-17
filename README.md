@@ -40,4 +40,12 @@ Python 3.8
 ![](ERD.png)
 
 
+## ETL
+The ETL process is performed in a python script, and uses AWS credentials found in the dl.cfg file:
+|File|Description|
+|----|-----------|
+|etl.py|The script reads song_data and load_data from S3, transforms them to create five different tables, and writes them to partitioned parquet files in table directories on S3.|
+|dl.cfg|Contains AWS credentials. Note: Provide your own AWS credentials to run the script|
+
+
 

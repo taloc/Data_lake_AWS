@@ -6,10 +6,21 @@ This is an ETL (extract, transform, load) data project of a fictional company ca
 The task is to create a set of dimensional tables in a star schema to be stored back into AWS S3 for the company's analytical team study of usage behaviour.
 
 ## Data source
-The datasets reside in AWS S3:
 
 ### This contains the song database:
 Song data: s3://udacity-dend/song_data
 ### This one contains the user log:
 Log data: s3://udacity-dend/log_data
+
+Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset.
+`song_data/A/B/C/TRABCEI128F424C983.json
+song_data/A/A/B/TRAABJL12903CDCF1A.json`
+
+## Requirements:
+
+AWS credentials with enough credits to run S3
+Python 3.8 
+
+
+
 
